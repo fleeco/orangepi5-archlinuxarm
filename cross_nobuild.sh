@@ -491,13 +491,7 @@ ${spart_root}"
         model="${rkloader%:*}"
         model="${model#*:}"
         case ${model#orangepi_5} in
-        b)
-            fdt='rk3588s-orangepi-5b.dtb'
-        ;;
-        _plus)
-            fdt='rk3588-orangepi-5-plus.dtb'
-        ;;
-        _plus)
+        _max)
             fdt='rk3588-orangepi-5-max.dtb'
         ;;
         '')
