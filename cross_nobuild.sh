@@ -497,6 +497,9 @@ ${spart_root}"
         _plus)
             fdt='rk3588-orangepi-5-plus.dtb'
         ;;
+        _plus)
+            fdt='rk3588-orangepi-5-max.dtb'
+        ;;
         '')
             fdt='rk3588s-orangepi-5.dtb'
         ;;
